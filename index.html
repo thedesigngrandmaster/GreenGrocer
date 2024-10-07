@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="css/style.css">
+        <title>GreenGrocer | Home</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="navbar">
+                <a href="#" class="logo">Green<span>Grocer</span></a>
+
+                <div class="search-box">
+                    <input type="search" placeholder="Search" id="search-input">
+                    <label for="search-box" class="fa-solid fa-magnifying-glass"></label>
+                </div>
+            </div>
+
+            <div class="header-2">
+
+                <div onclick=showMenubar() class="fa-solid fa-bars" id="menu-btn"></div>
+                <nav class="menubar">
+                    <a onclick=hideMenubar() href="#">
+                        <i class="fa-solid fa-times"></i>
+                    </a>
+                    <a onclick=hideMenubar() href="#home">Home</a>
+                    <a onclick=hideMenubar() href="#category">Category</a>
+                    <a onclick=hideMenubar() href="#products">Product</a>
+                    <a onclick=hideMenubar() href="#contact">Contact</a>
+                    <a onclick=hideMenubar() href="#faqs">FAQS</a>
+                </nav>
+
+                <nav class="nav-left">
+                    <a href="#home">Home</a>
+                    <a href="#category">Category</a>
+                    <a href="#products">Product</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#faqs">FAQS</a>
+                </nav>
+
+                <div class="nav-icons">
+                    <a href="#"><i class="fa-solid fa-shopping-cart"></i></a>
+                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    <a href="#"><i class="fa-solid fa-user-circle"></i></a>
+                </div>
+            </div>
+        </header>
+
+        <section class="home banner" id="home">
+
+            <div class="content">
+                <span>Fresh And Organic.</span>
+                <h3>Your Daily <br>Need Products.</h3>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            
+            <div class="image">
+                <img src="images/cat-2.png" alt="">
+            </div>
+        </section>
+
+        <section class="banner-container">
+            <div class="banner">
+                <img src="images/portrait-female-holding-fruits.jpg" alt="">
+                <div class="content">
+                    <h3>Special Offer</h3>
+                    <span>Upto 50% off</span>
+                    <a href="#" class="btn">CHECK OUT</a>
+                </div>
+            </div>
+
+            <div class="banner">
+                <img src="images/tropical-touch-fruit-basket-displayed-sunny-bg.jpg" alt="">
+                <div class="content">
+                    <h3>Limited Offer</h3>
+                    <span>Upto 30% off</span>
+                    <a href="#" class="btn">CHECK OUT</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- category section starts -->
+        <section class="category" id="category">
+            <h1 class="heading">Browse by <span>Category</span></h1>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <h3>Vegetables</h3>
+                    <p>Upto 50% off</p>
+                    <img src="images/cat-1.png" alt="">
+                    <a href="#" class="btn">shop now</a>
+                </div>
+                <div class="box">
+                    <h3>Fruits</h3>
+                    <p>Upto 44% off</p>
+                    <img src="images/product-1.png" alt="">
+                    <a href="#" class="btn">shop now</a>
+                </div>
+                <div class="box">
+                    <h3>Dairy Products</h3>
+                    <p>Upto 30% off</p>
+                    <img src="images/cat-3.png" alt="" width="50px">
+                    <a href="#" class="btn">shop now</a>
+                </div>
+                <div class="box">
+                    <h3>Meat</h3>
+                    <p>Upto 30% off</p>
+                    <img src="images/cart-img-3.png" alt="">
+                    <a href="#" class="btn">shop now</a>
+                </div>
+
+            </div>
+        </section>
+         <!-- category section ends -->
+
+         <!-- Product section starts  -->
+
+         <section class="products" id="products">
+            <h1 class="heading">Our <span>Products</span></h1>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <span class="discout">-33%</span>
+                    <div class="icons">
+                        <a href="#" class="fa-solid fa-heart"></a>
+                        <a href="#" class="fa-solid fa-share"></a>
+                        <a href="#" class="fa-solid fa-eye"></a>
+                    </div>
+                    <img src="images/cart-img-1.png" alt="">
+                    <h3>Fresh Watermelons</h3>
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">₦2,345 <span>₦3,500</span></div>
+                    <div class="quantity">
+                        <span>Quantity :</span>
+                        <input type="number" min="1" max="1000" value="1">
+                        <span>  /kg</span>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+
+                <div class="box">
+                    <span class="discout">-33%</span>
+                    <div class="icons">
+                        <a href="#" class="fa-solid fa-heart"></a>
+                        <a href="#" class="fa-solid fa-share"></a>
+                        <a href="#" class="fa-solid fa-eye"></a>
+                    </div>
+                    <img src="images/product-8.png" alt="">
+                    <h3>Fresh Lemons</h3>
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">₦1,340 <span>₦3,000</span></div>
+                    <div class="quantity">
+                        <span>Quantity :</span>
+                        <input type="number" min="1" max="1000" value="1">
+                        <span>  /kg</span>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+
+                <div class="box">
+                    <span class="discout">-33%</span>
+                    <div class="icons">
+                        <a href="#" class="fa-solid fa-heart"></a>
+                        <a href="#" class="fa-solid fa-share"></a>
+                        <a href="#" class="fa-solid fa-eye"></a>
+                    </div>
+                    <img src="images/product-6.png" alt="">
+                    <h3>Fresh Avocado pears</h3>
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">₦2,345 <span>₦3,500</span></div>
+                    <div class="quantity">
+                        <span>Quantity :</span>
+                        <input type="number" min="1" max="1000" value="1">
+                        <span>  /kg</span>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+
+                <div class="box">
+                    <span class="discout">-33%</span>
+                    <div class="icons">
+                        <a href="#" class="fa-solid fa-heart"></a>
+                        <a href="#" class="fa-solid fa-share"></a>
+                        <a href="#" class="fa-solid fa-eye"></a>
+                    </div>
+                    <img src="images/product-1.png" alt="">
+                    <h3>Fresh Tangerines</h3>
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">₦1,340 <span>₦2,000</span></div>
+                    <div class="quantity">
+                        <span>Quantity :</span>
+                        <input type="number" min="1" max="1000" value="1">
+                        <span>  /kg</span>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+
+                <div class="box">
+                    <span class="discout">-45%</span>
+                    <div class="icons">
+                        <a href="#" class="fa-solid fa-heart"></a>
+                        <a href="#" class="fa-solid fa-share"></a>
+                        <a href="#" class="fa-solid fa-eye"></a>
+                    </div>
+                    <img src="images/product-7.png" alt="">
+                    <h3>Fresh Carrots</h3>
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">₦1,650 <span>₦3,000</span></div>
+                    <div class="quantity">
+                        <span>Quantity :</span>
+                        <input type="number" min="1" max="1000" value="1">
+                        <span>  /kg</span>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+
+                <div class="box">
+                    <span class="discout">-50%</span>
+                    <div class="icons">
+                        <a href="#" class="fa-solid fa-heart"></a>
+                        <a href="#" class="fa-solid fa-share"></a>
+                        <a href="#" class="fa-solid fa-eye"></a>
+                    </div>
+                    <img src="images/cat-4.png" alt="">
+                    <h3>Beef</h3>
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="price">₦2,000 <span>₦4,000</span></div>
+                    <div class="quantity">
+                        <span>Quantity :</span>
+                        <input type="number" min="1" max="1000" value="1">
+                        <span>  /kg</span>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+
+                <div class="box">
+                    <span class="discout">-40%</span>
+                    <div class="icons">
+                        <a href="#" class="fa-solid fa-heart"></a>
+                        <a href="#" class="fa-solid fa-share"></a>
+                        <a href="#" class="fa-solid fa-eye"></a>
+                    </div>
+                    <img src="images/cart-img-3.png" alt="">
+                    <h3>Chicken</h3>
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="price">₦4,200 <span>₦7,000</span></div>
+                    <div class="quantity">
+                        <span>Quantity :</span>
+                        <input type="number" min="1" max="1000" value="1">
+                        <span>  /kg</span>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+
+                <div class="box">
+                    <span class="discout">-33%</span>
+                    <div class="icons">
+                        <a href="#" class="fa-solid fa-heart"></a>
+                        <a href="#" class="fa-solid fa-share"></a>
+                        <a href="#" class="fa-solid fa-eye"></a>
+                    </div>
+                    <img src="images/cart-img-2.png" alt="">
+                    <h3>Fresh Onions</h3>
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">₦200 <span>₦300</span></div>
+                    <div class="quantity">
+                        <span>Quantity :</span>
+                        <input type="number" min="1" max="1000" value="1">
+                        <span>  /kg</span>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+        </section>
+          <!-- Products section ends -->
+
+          <!-- "Why Choose Us?" section starts -->
+          <section class="choose">
+            <h1 class="heading"><span>Why Choose Us?</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="images/In no time-cuate.svg" alt="" width="200px" width="200px">
+                    <h3>Seamless Transactions</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, tempore.</p>
+                    <a href="#" class="btn">shop now</a>
+                </div>
+
+                <div class="box">
+                    <img src="images/Delivery address-bro.svg" alt="" width="200px" width="200px">
+                    <h3>Fast Delivery</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt autem assumenda modi debitis harum.</p>
+                    <a href="#" class="btn">shop now</a>
+                </div>
+
+                <div class="box">
+                    <img src="images/Mobile payments-pana.svg" alt="" width="200px" width="200px">
+                    <h3>100% Stress Free</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, quis.</p>
+                    <a href="#" class="btn">shop now</a>
+                </div>
+
+                <div class="box">
+                    <img src="images/Farmers market-bro.svg" alt="" width="280px" width="300px">
+                    <h3>Neat and Hygienic Stalls</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, nisi.</p>
+                    <a href="#" class="btn">shop now</a>
+                </div>
+
+            </div>
+        </section>
+        <!-- "Why Choose Us?" section ends -->
+
+        <section class="deal">
+            <div class="content">
+                <h3 class="title">Deal of the Day</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius consequatur sunt ipsa numquam aut, quibusdam ducimus repellat illum ex dignissimos.</p>
+
+                <div class="count-down">
+                    <div class="box">
+                        <h3 class="" id="day">00</h3>
+                        <span>days</span>
+                    </div>
+
+                    <div class="box">
+                        <h3 class="" id="hour">00</h3>
+                        <span>hours</span>
+                    </div>
+
+                    <div class="box">
+                        <h3 class="" id="minute">00</h3>
+                        <span>minutes</span>
+                    </div>
+
+                    <div class="box">
+                        <h3 class="" id="second">00</h3>
+                        <span>seconds</span>
+                    </div>
+                </div>
+
+                <a href="#" class="button">deal of the day</a>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h1 class="heading">Contact <span>us</span></h1>
+            <p>We'd love to hear from you!</p>
+
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <input type="number" placeholder="Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+
+                <textarea placeholder="Message" name="" id=""></textarea>
+
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+        </section>
+
+        <section class="faqs" id="faqs">
+            <h1 class="heading"><span>FAQS</span></h1>
+            <div class="row">
+                <div class="image">
+                    <img src="images/FAQs-amico.svg" width="300px">
+                </div>
+                <div class="faq-container">
+                    <div class="faq">
+                        <div class="faq-header">
+                            <span>+</span>
+                            <h3>How do I place my order?</h3>
+                        </div>
+                        <div class="faq-body">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, perferendis.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq">
+                        <div class="faq-header">
+                            <span>+</span>
+                            <h3>How long will my order take to arrive?</h3>
+                        </div>
+                        <div class="faq-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe cum nostrum odit quis sequi.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq">
+                        <div class="faq-header">
+                            <span>+</span>
+                            <h3>How do I monitor my delivery?</h3>
+                        </div>
+                        <div class="faq-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor doloremque quo veritatis deleniti perspiciatis sint animi fugiat soluta eius nostrum?</p>
+                        </div>
+                    </div>
+
+                    <div class="faq">
+                        <div class="faq-header">
+                            <span>+</span>
+                            <h3>Is GreenGrocer Legit?</h3>
+                        </div>
+                        <div class="faq-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet sunt at quod facere! Quia voluptates, consequatur officia iste dolorem corrupti vero fugiat exercitationem at natus aliquam numquam reprehenderit velit voluptatem.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq">
+                        <div class="faq-header">
+                            <span>+</span>
+                            <h3>Are there GreenGrocer stores near me?</h3>
+                        </div>
+                        <div class="faq-body">
+                            <p>Repellat vel incidunt laborum quis quo, reiciendis nam veniam labore!</p>
+                        </div>
+                    </div>
+
+                    <div class="faq">
+                        <div class="faq-header">
+                            <span>+</span>
+                            <h3>How do I locate GreenGrocer stores near me?</h3>
+                        </div>
+                        <div class="faq-body">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis labore cum illo quaerat alias velit fuga magni? Corporis, nostrum quis? Repellat vel incidunt laborum quis quo, reiciendis nam veniam labore!</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <section class="news">
+            <div class="newsletter">
+                <h3 class="title">Subscribe to Get Latest Updates</h3>>
+                    <div class="email-box-container">
+                        <div class="email-box">
+                            <input type="email" placeholder="Email" id="email-box-input">
+                            <label for="email-box"><a href="#">Subscribe</a></label>
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+        <section class="footer">
+           <div class="footer-container">
+                    <div class="footer-row">
+                        <a href="#" class="logo">Green<span>Grocer</span></a>
+
+                        <div class="foot-text">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, iure! Optio in illo voluptas ipsam?</p>
+                            <div class="icons">
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-linkedin"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="footer-row">
+                    <h3 class="title">Our Locations</h3>
+                    <a class="footer-links" href="#">Lagos</a>
+                    <a class="footer-links" href="#">Abuja</a>
+                    <a class="footer-links" href="#">Port-Harcourt</a>
+                    <a class="footer-links" href="#">Delta</a>
+                    <a class="footer-links" href="#">Anambra</a>
+                </div>
+
+                <div class="footer-row">
+                    <h3 class="title">Quick Links</h3>
+                    <a class="footer-links" href="#home">Home</a>
+                    <a class="footer-links" href="#category">Category</a>
+                    <a class="footer-links" href="#products">Product</a>
+                    <a class="footer-links" href="#contact">Contact</a>
+                    <a class="footer-links" href="#faqs">FAQS</a>
+                </div>
+
+                <div class="footer-row">
+                    <h3 class="title">Download App</h3>
+                    <a class="footer-links" href="#" class="">Android</a>
+                    <a class="footer-links" href="#">IOS</a>
+                    <a class="footer-links" href="#">Windows</a>
+                    <a class="footer-links" href="#">Mac</a>
+                </div>
+           </div>
+
+        </section>
+
+        <footer class="footers">
+            Created by <span><a href="#">The Design Grandmaster.</a></span> All Rights Reserved.
+        </footer>
+ 
+        <script src="jquery/jquery-3.7.1.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
